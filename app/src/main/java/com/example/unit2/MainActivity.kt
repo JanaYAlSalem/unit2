@@ -3,6 +3,7 @@ package com.example.unit2
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.unit2.databinding.ActivityMainBinding
+import java.text.NumberFormat
 
 
 class MainActivity : AppCompatActivity() {
@@ -43,7 +44,7 @@ class MainActivity : AppCompatActivity() {
             ResultOfTip = kotlin.math.ceil(ResultOfTip)
         } // calculate Tip with rounding
 
-        //  val formattedTip = NumberFormat.getCurrencyInstance().format(ResultOfTip)
+        val formattedTip = NumberFormat.getCurrencyInstance().format(ResultOfTip) // show $
         LinkXML.ShowResult.setText(ResultOfTip.toString())
 
     } // end calculateTip fun
