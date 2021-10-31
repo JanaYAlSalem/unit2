@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">unit2</string>
+    <string name="number_of_service">Number of Service</string>
+    <string name="how_was_the_service">How was the Service</string>
+    <string name="round_up_tip">Round Up Tip</string>
+    <string name="Amazing">Amazing (20%)</string>
+    <string name="Good">Good (18%)</string>
+    <string name="Ok">Ok (15%)</string>
+
+    <string name="button">CAL</string>
+    <string name="textview">TextView</string>
+
+
+</resources>
